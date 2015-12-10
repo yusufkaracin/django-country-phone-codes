@@ -253,4 +253,6 @@ phone_codes = (
         ('260', '(260) {}'.format(_("Zambia"))),
         ('263', '(263) {}'.format(_("Zimbabwe")))
     )
+    # sort by code
+    sorted_phone_codes = sorted(phone_codes, key=lambda tup: tup[0])
 ```
